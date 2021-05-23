@@ -1,0 +1,75 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 0 0 25px 0;
+}
+.input-search {
+  margin-bottom: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+  min-width: 410px;
+  border-radius: 20px;
+  border: transparent;
+  outline: none;
+  box-shadow: 1px 1px 2px black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.js-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.country-card {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 350px;
+}
+.country-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.country-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.country-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.country-list-item {
+  display: flex;
+  margin-top: 15px;
+}
+
+.country-lang-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}

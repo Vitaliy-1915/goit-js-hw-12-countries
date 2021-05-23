@@ -21,6 +21,7 @@
   },
   "homepage": "https://Vitaliy-1915.github.io/goit-js-hw-12-countries",
   "devDependencies": {
+    "@pnotify/core": "^5.2.0",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",

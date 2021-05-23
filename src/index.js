@@ -1,10 +1,18 @@
+import "./sass/main.scss";
 import debounce from 'lodash.debounce';
-import axios from 'axios';
+import { alert, error } from '@pnotify/core';
+import templatesCountryCard from './templates/country-card.hbs';
 
-axios.get('https://restcountries.eu/rest/v2/name/eesti')
-    .then(response =>
-        // handle success
-        console.log(response))
-    .catch(error =>
-        // handle error
-        console.log(error));
+import fetchCountries from './js/axiosCountries.js';
+
+const cardContainerEL = document.querySelector('.js-card-container')
+
+const renderCountryList = country => {
+    const markup = templatesCountryCard(country);
+    cardContainerEL.insertAdjacentHTML('beforeend', markup);
+}
+
+fetchCountries().then(renderCountryList);
+
+
+
