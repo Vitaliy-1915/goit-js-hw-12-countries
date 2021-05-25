@@ -68,7 +68,7 @@ function onResultSearchError() {
         text: 'No matches found',
         hide: true,
         delay: 5000,
-        width: '1000px',
+        width: '900px',
         minHeight: '100px',
 });
 }
@@ -78,7 +78,7 @@ function tooManyCountry() {
     text: 'Please enter a more specific query!',
     delay: 5000,
       hide: true,
-      width: '1000px',
+      width: '900px',
       minHeight: '100px',
   });
 }
