@@ -20,11 +20,12 @@ function onResultSearchCountry(country) {
         
     } else if (country.length <= 10 && country.length > 1) {
         clearMarkup();
-        fetchCountries().then(renderCountryList).catch(onResultSearchError);
+        fetchCountries(inputSearchEl.value).then(renderCountryList).catch(onResultSearchError);
         return
         
     } else if (country.length === 1) {
-        fetchCountries().then(renderCountryCard).catch(onResultSearchError);
+        clearMarkup();
+        fetchCountries(inputSearchEl.value).then(renderCountryCard).catch(onResultSearchError);
         return
     } else {
         clearMarkup();
@@ -44,7 +45,7 @@ function onSearch() {
         clearMarkup();
         return;
     }
-    fetchCountries().then(onResultSearchCountry).catch(onResultSearchError);
+    fetchCountries(inputSearchEl.value).then(onResultSearchCountry).catch(onResultSearchError);
 };
 
 function renderCountryList(country) {
