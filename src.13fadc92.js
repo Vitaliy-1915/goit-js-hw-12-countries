@@ -4688,7 +4688,7 @@ function onResultSearchError() {
     text: 'No matches found',
     hide: true,
     delay: 5000,
-    width: '1200px',
+    width: '900px',
     minHeight: '100px'
   });
 }
@@ -4698,9 +4698,9 @@ function tooManyCountry() {
     text: 'Please enter a more specific query!',
     delay: 5000,
     hide: true,
-    width: '1200px',
+    width: '900px',
     minHeight: '100px'
   });
 }
 },{"./sass/main.scss":"clu1","lodash.debounce":"PZFh","@pnotify/core":"txz9","@pnotify/core/dist/PNotify.css":"clu1","@pnotify/core/dist/BrightTheme.css":"clu1","./templates/country-card.hbs":"DRrH","./templates/country-list.hbs":"htiI","./js/axiosCountries.js":"NpWW"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-12-countries/src.50df4d03.js.map
+//# sourceMappingURL=/goit-js-hw-12-countries/src.13fadc92.js.map
