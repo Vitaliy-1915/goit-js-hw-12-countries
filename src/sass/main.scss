@@ -21,16 +21,19 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-li {
-  list-style: none;
-}
-
 .js-card-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-
+.country-name {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
 .country-card {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -60,6 +63,7 @@ li {
   margin: 0;
   padding: 0;
   padding-bottom: 20px;
+  list-style: none;
 }
 
 .country-list-item {
